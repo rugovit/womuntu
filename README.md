@@ -10,6 +10,8 @@ Commands:
                                   wcc - build strings from csv assumes file names localisation.csv for original file to be filed and localisation_with_keys.csv 
                                   wjc - build json strings from csv in separate files in respect to language
                                   wjcs - build json strings from csv in single file 
+                                  
+                                  
   Example: m wjc
        -i : Set the name of ios strings file in containing folder, if omitted it will assume default  name: Localizable.strings, or Localizables folder  
        -a : Set the name of Android strings file in containing folder, if omitted it will assume default  name: strings.xml, or res folder
